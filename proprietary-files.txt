@@ -259,17 +259,17 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 
-# Keymaster - from OnePlus6
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|002c638011b1936fecaa896874d3361ec68eaa46
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so|9898305b13c2e144c0bd3e754c2adbd77a981d06
-vendor/lib/libkeymasterdeviceutils.so|c160ff7b68661c8df3e9258c98fbbfa7f1c63ac4
-vendor/lib/libkeymasterprovision.so|a6209540c16a51d93d1a8176ed5481688401df1e
-vendor/lib/libkeymasterutils.so|aeb984222fbd7d6881f9915a5ad1a9ab828c862b
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|df91a2c941ba45b3a76cbbce81637a6a0c0b49f3
-vendor/lib64/libkeymasterdeviceutils.so|e0ce05020bbd5f9ae3666e37fb67826d410e2c7b
-vendor/lib64/libkeymasterprovision.so|eb5ccf4b7f9bf3131c8a4e06dfeff68a43ad7453
-vendor/lib64/libkeymasterutils.so|db21b2fec8e5808c562665746d0394575004070b
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib/libkeymasterdeviceutils.so
+vendor/lib/libkeymasterprovision.so
+vendor/lib/libkeymasterutils.so
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
 
 # NFC firmware
 vendor/firmware/libpn553_rec.so
